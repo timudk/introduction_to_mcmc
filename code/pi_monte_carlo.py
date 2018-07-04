@@ -23,8 +23,8 @@ STEP_START = 100
 
 PRECISION = 6
 
-PATH_FIG = 'output/pi_approximation/' + 'stochastics_project.pdf'
-PATH_DATA = 'output/pi_approximation/' + 'stochastics_project.txt'
+PATH_FIG = 'pi_monte_carlo.pdf'
+PATH_DATA = 'pi_monte_carlo.txt'
 
 def round_sig(x, sig):
 	return round(x, sig-int(floor(log10(abs(x))))-1)

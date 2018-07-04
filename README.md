@@ -3,9 +3,10 @@ This project has been developed as part of the class AMATH777 - Stochastic Proce
 
 # Code description
 The code is based on the following packages:
-* numpy
+* numpy 
 * matplotlib
-* math
+Check (and potentially download the packages) using pip:
+# shell pip install numpy matplotlib
 
 ## uniform_samples_using_linear_congruential_generator.py
 This example produces a sequence of samples for the uniform distribution U([0,1]) using a linear congruential generator (LCG). A description of the method can be found at https://en.wikipedia.org/wiki/Linear_congruential_generator.

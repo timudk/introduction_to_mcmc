@@ -9,7 +9,7 @@ import matplotlib.animation as animation
 from matplotlib import rc
 import math
 
-rc('font', **{'size':24, 'family':'serif', 'serif':['Computer Modern Roman']})
+rc('font', **{'size':12, 'family':'serif', 'serif':['Computer Modern Roman']})
 rc('text', usetex=True)
 
 # Parameters
@@ -22,7 +22,7 @@ ACC_TARGET_DIST = 30001
 LEFT_LIM = -10
 RIGHT_LIM = 20
 
-PATH = 'output/metropolis/stochastic_project_with_' + str(NUM_DRAWS) + '_draws_fs_24.pdf'
+PATH = 'metropolis.pdf'
 
 def draw_sample(x_i):
 	return np.random.normal(x_i, STD_DEVIATION_PROP_DIST)

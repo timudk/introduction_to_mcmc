@@ -5,6 +5,7 @@ This project has been developed as part of the class AMATH777 - Stochastic Proce
 The code is based on the following packages:
 * numpy 
 * matplotlib
+
 Check (and potentially download the packages) using pip:
 ```console
 foo@bar:~$ pip install numpy matplotlib

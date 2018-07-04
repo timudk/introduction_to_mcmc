@@ -64,11 +64,15 @@ def visualization(samples):
 
 	plt.savefig(PATH, bbox_inches='tight')
 	plt.show()
+	
+def main():
+	samples = np.zeros(NUM_DRAWS)
+	samples[0] = 0
+	
+	for i in range(0, (NUM_DRAWS-1)):
+		samples[i+1] = one_step_of_metropolis_algorithm(samples[i])
 
-samples = np.zeros(NUM_DRAWS)
-samples[0] = 0
+	visualization(samples)
 
-for i in range(0, (NUM_DRAWS-1)):
-	samples[i+1] = one_step_of_metropolis_algorithm(samples[i])
-
-visualization(samples)
+if __name__ == "__main__":
+	main()

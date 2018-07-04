@@ -6,7 +6,7 @@ The code is based on the following packages:
 * numpy 
 * matplotlib
 
-Check (and potentially download the packages) using pip:
+Check (and potentially download the two packages) using pip:
 ```console
 foo@bar:~$ pip install numpy matplotlib
 ```

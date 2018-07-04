@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib import rc
 from matplotlib.ticker import MaxNLocator
 
-rc('font', **{'size':24, 'family':'serif', 'serif':['Computer Modern Roman']})
+rc('font', **{'size':12, 'family':'serif', 'serif':['Computer Modern Roman']})
 rc('text', usetex=True)
 
 # Parameters for LCG https://en.wikipedia.org/wiki/Linear_congruential_generator
@@ -21,7 +21,7 @@ C = 1013904223
 NUM_DRAWS = 1000000
 NUM_BINS = 100
 
-PATH = 'output/linear_congruential_generator/uniform_samples_with_' + str(NUM_DRAWS) + '_draws_fs_24.pdf'
+PATH = 'uniform_samples.pdf'
 
 def compute_uniform_samples():
 	"""
@@ -53,5 +53,9 @@ def visualization(samples):
 	plt.savefig(PATH, bbox_inches='tight')
 	plt.show()
 
-samples = compute_uniform_samples()
-visualization(samples)
+def main():
+	samples = compute_uniform_samples()
+	visualization(samples)
+	
+if __name__ == "__main__":
+	main()

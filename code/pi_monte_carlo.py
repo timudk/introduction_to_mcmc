@@ -105,7 +105,10 @@ def data(pi_approximations):
 		data_file.write('\t' + str(mean))
 		data_file.write('\n')
 
-approximation = simulation()
-
-visualization(approximation)
-data(approximation)
+def main():
+	approximation = simulation()
+	visualization(approximation)
+	data(approximation)
+	
+if __name__ == "__main__":
+	main()

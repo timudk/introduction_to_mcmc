@@ -20,3 +20,4 @@ This example approximates pi numerically using a Monte Carlo estimator I = (4/N)
 ## metropols.py
 This examples produces a sequence of samples drawn from the non-normalized distribution f(x) = 0.3exp(-0.2x^2) + 0.7exp(-0.2(x-10)^2) using the Metropolis algorithm with a normal proposal distribution (see [Andrieu et al.](http://www.cs.ubc.ca/~arnaud/andrieu_defreitas_doucet_jordan_intromontecarlomachinelearning.pdf) for further details).
 
+![Caption for the picture.](/sample_output/metropolis.jpg)

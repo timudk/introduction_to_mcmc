@@ -12,7 +12,7 @@ foo@bar:~$ pip install numpy matplotlib
 ```
 
 ## uniform_samples_using_linear_congruential_generator.py
-This example produces a sequence of samples for the uniform distribution U([0,1]) using a linear congruential generator (LCG). A description of the method can be found at https://en.wikipedia.org/wiki/Linear_congruential_generator.
+This example produces a sequence of samples for the uniform distribution ![A](http://latex.codecogs.com/gif.latex?U%28%5B0%2C%201%5D%5D%29) using a linear congruential generator (LCG). A description of the method can be found at https://en.wikipedia.org/wiki/Linear_congruential_generator.
 
 ## pi_monte_carlo.py
 This example approximates pi numerically using a Monte Carlo estimator I = (4/N) SUM_{i=1}^{N} h(x^(i), y^(i)) where h() is the indicator function h(x,y) = {1 if x^2+y^2 <= 1 and 0 otherwise} and the tupels (x^(i), y^(i)) are drawn from the uniform distribution U([0,1]x[0,1]).

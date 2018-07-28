@@ -3,7 +3,7 @@ This project has been developed as part of the class AMATH777 - Stochastic Proce
 
 # Code description
 The code is based on the following packages:
-* numpy 
+* NumPy
 * matplotlib
 
 Check (and potentially download the two packages) using pip:
